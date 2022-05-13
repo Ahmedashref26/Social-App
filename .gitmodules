@@ -1,3 +1,6 @@
 [submodule "Social-media-API"]
 	path = Social-media-API
 	url = https://github.com/Ahmedashref26/Social-media-API.git
+[submodule "Social-media-FrontEnd"]
+	path = Social-media-FrontEnd
+	url = https://github.com/Ahmedashref26/Social-media-FrontEnd.git
