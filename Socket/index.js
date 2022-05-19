@@ -18,7 +18,7 @@ const removeUser = (socketId) => {
 };
 
 io.on('connection', (socket) => {
-  console.log('a user connected.');
+  console.log(`a user connected.`);
   //take userId and socketId from user
   socket.on('addUser', (userId) => {
     addUser(userId, socket.id);
@@ -29,6 +29,19 @@ io.on('connection', (socket) => {
   socket.on('sendMessage', (msg) => {
     const user = getUser(msg.receiverId);
     io.to(user.socketId).emit('getMessage', msg);
+  });
+
+  socket.on('sendNotification', ({ sender, receiver, desc, type }) => {
+    console.log('notifi received');
+    const user = getUser(receiver);
+    console.log('recever', user.socketId);
+    io.to(user.socketId).emit('getNotification', {
+      id: Date.now(),
+      msg:
+        type === 'comment'
+          ? `${sender} ${type} on your post: ${desc}`
+          : `${sender} ${type} your post: ${desc}`,
+    });
   });
 
   //when disconnect
