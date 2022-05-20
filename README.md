@@ -56,7 +56,7 @@ Live demo 👉 : https://ahmed-gosocial.herokuapp.com/
 
 #### Your Profile :
 
-![YourProfile](./YourProfile.png)
+![YourProfile](./yourProfile.png)
 
 #### users Profile :
 
