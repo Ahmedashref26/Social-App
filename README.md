@@ -52,31 +52,31 @@ Live demo 👉 : https://ahmed-gosocial.herokuapp.com/
 
 #### Home Page :
 
-![HomePage](./HomePage.png)
+![HomePage](./ScreenShots/HomePage.png)
 
 #### Your Profile :
 
-![YourProfile](./yourProfile.png)
+![YourProfile](./ScreenShots/yourProfile.png)
 
 #### users Profile :
 
-![usersProfile](./otherUserProfile.png)
+![usersProfile](./ScreenShots/otherUserProfile.png)
 
 #### Account Settings :
 
-![AccountSettings](./accountSetting.png)
+![AccountSettings](./ScreenShots/accountSetting.png)
 
 #### Chat :
 
-![Chat](./Chat.png)
+![Chat](./ScreenShots/Chat.png)
 
 #### Comment :
 
-![Comment](./comments.png)
+![Comment](./ScreenShots/comments.png)
 
 #### Notifications :
 
-![Notifications](./notificaitons.png)
+![Notifications](./ScreenShots/notificaitons.png)
 
 ## How To Use
 
