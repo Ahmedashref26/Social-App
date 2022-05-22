@@ -24,6 +24,7 @@
 ## Deployed Version
 
 Live demo 👉 : https://ahmed-gosocial.herokuapp.com/
+DISCLAIMER ⚠️ : You may face some laging or slow in connection because heroku dyno goes to sleep due to hosting api seperate from front end on https://api-gosocial.herokuapp.com/
 
 ## Key Features
 
